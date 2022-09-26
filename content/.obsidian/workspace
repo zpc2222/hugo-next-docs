@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "releases/hugo-next-v4-2-0-release.md",
+            "file": "releases/1-hugo-next-v4-introduced.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "releases/hugo-next-v4-2-0-release.md",
+                "file": "releases/1-hugo-next-v4-introduced.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "releases/hugo-next-v4-2-0-release.md",
+                "file": "releases/1-hugo-next-v4-introduced.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,28 +117,36 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "releases/hugo-next-v4-2-0-release.md"
+                "file": "releases/1-hugo-next-v4-introduced.md"
               }
             }
+          },
+          {
+            "id": "8f1600b216dca1cc",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "23b000ba05f7a490",
+  "active": "8f1600b216dca1cc",
   "lastOpenFiles": [
-    "releases/hugo-next-4-1-0-release.md",
-    "releases/hugo-next-4-0-1-release.md",
-    "releases/hugo-next-4-0-0-release.md",
-    "releases/1-hugo-next-v4-introduced.md",
     "releases/0-hugo-next-organization.md",
-    "about.md",
-    "flinks.md",
-    "demo/hello-world.md",
+    "demo/table-of-content.md",
+    "demo/syntax-highlighting.md",
     "demo/shortcodes.md",
-    "demo/markdown-syntax.md"
+    "demo/markdown-syntax.md",
+    "demo/hello-world.md",
+    "archives/_index.md",
+    "demo/emoji-support.md",
+    "about.md",
+    "flinks.md"
   ]
 }
