@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "2b8df966c8a7deaa",
+    "type": "split",
+    "children": [
+      {
+        "id": "23b000ba05f7a490",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "releases/hugo-next-v4-2-0-release.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "083ce5ee649924b8",
+    "type": "split",
+    "children": [
+      {
+        "id": "722f1ec8eff34b9e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a15b7fda36d69ba3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "927d0da41778bb98",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fd988ed9b8078c4d",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "853cf059e3538b4e",
+    "type": "split",
+    "children": [
+      {
+        "id": "3a32f60a102e30b9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "40a0052428775cdb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "releases/hugo-next-v4-2-0-release.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0d0659ec2e06cbd9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "releases/hugo-next-v4-2-0-release.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0610f130d02dab86",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c4a3829cede63667",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "releases/hugo-next-v4-2-0-release.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "23b000ba05f7a490",
+  "lastOpenFiles": [
+    "releases/hugo-next-4-1-0-release.md",
+    "releases/hugo-next-4-0-1-release.md",
+    "releases/hugo-next-4-0-0-release.md",
+    "releases/1-hugo-next-v4-introduced.md",
+    "releases/0-hugo-next-organization.md",
+    "about.md",
+    "flinks.md",
+    "demo/hello-world.md",
+    "demo/shortcodes.md",
+    "demo/markdown-syntax.md"
+  ]
+}

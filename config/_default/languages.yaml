@@ -1,13 +1,13 @@
 # Multi-languages configure
 
 zh-cn:
-  title: Hugo NexT
+  title: 藏锋的博客
   languageName: 中文
   languageCode: zh-CN
   hasCJKLanguage: true
   weight: 1
 en:
-  title: Hugo NexT
+  title: CF blog
   languageName: English
   languageCode: en
   hasCJKLanguage: false

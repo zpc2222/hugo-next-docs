@@ -18,8 +18,8 @@ timeFormat: "2006-01-02T15:04:05-07:00"
 # Schemes
 #scheme: Muse
 #scheme: Mist
-#scheme: Pisces
-scheme: Gemini
+scheme: Pisces
+#scheme: Gemini
 
 # 开启暗模式
 # Dark Mode
@@ -28,10 +28,10 @@ darkmode: true
 
 # 站点基本信息
 # Site Information Settings
-author: NexT 主题
-subtitle: 为 Hugo 打造的主题
-description: 保持简单的易用性和强大的功能。
-keywords: Hugo,NexT,主题,简单,强大
+author: 藏锋
+subtitle: Hugo打造的博客
+description: 专注于Java、移动互联网、项目管理、软件架构
+keywords: Java,开发,架构,中间件,研发
 
 # 不同尺寸站点图标
 # Different size of favicon
@@ -147,10 +147,10 @@ siteState: true
 # Key is the link label order.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 socials: 
-  social0: Github || https://github.com/elkan1788 || fab fa-github
-  #social1: E-Mail || mailto:yourname@gmail.com || fa fa-envelope
-  social2: 知乎 || https://www.zhihu.com/people/lisenhui || fa fa-book
-  #Google: https://plus.google.com/yourname || fab fa-google
+  social0: Github || https://github.com/zpc2222 || fab fa-github
+  social1: E-Mail || mailto:mozhou2222@gmail.com || fa fa-envelope
+  @social2: 知乎 || https://www.zhihu.com/people/lisenhui || fa fa-book
+  #Google: https://plus.google.com/mozhou2222 || fab fa-google
   #Twitter: https://twitter.com/yourname || fab fa-twitter
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
   #StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow
@@ -191,7 +191,7 @@ linksSets:
 # Usage: `Key: name || permalink`
 links: 
   link0: Hugo-NexT || https://gitee.com/hugo-next/hugo-theme-next
-  link1: 凡梦星尘空间站 || https://lisenhui.cn
+  link1: 百度一下 || https://www.baidu.com
 
 # 文章目录显示
 # Table of Contents in the Sidebar
@@ -222,7 +222,7 @@ footer:
   # 站点开始年份，默认为当下时间的年份
   # Specify the year when the site was setup. 
   # If not defined, current year will be used.
-  since: 2010
+  since: 2022
 
   # 年份和版权信息之间的图标
   # Icon between year and copyright info.
@@ -249,7 +249,7 @@ footer:
   # Beian ICP and gongan information for Chinese users. 
   # See: https://beian.miit.gov.cn, http://www.beian.gov.cn
   beian:
-    enable: true
+    enable: false
     # ICP 备案的具体信息
     icp: 粤ICP备 18047355-1 号
     # 公安网备的省份简称
@@ -267,16 +267,6 @@ footer:
     # 供应商列表，请将带有图标的供应商放在前面
     # Vendors list, remember that who with logo image need put in top.
     list:
-      - name: Vercel
-        image: 
-          url: /imgs/vendors/vercel.svg
-          width: 50
-        link: https://vercel.com
-      - name: 又拍云
-        image: 
-          url: /imgs/vendors/upyun.png
-          width: 43
-        link: https://upyun.com
       - name: Webify
         link: https://webify.cloudbase.net
 
@@ -357,8 +347,8 @@ followMe:
 # Post edit
 # Easily browse and edit blog source code online.
 postEdit:
-  enable: true
-  url: https://github.com/hugo-next/hugo-next-docs/tree/source/content/
+  enable: false
+  url: https://github.com/zpc2222/hugo-next-docs/tree/source/content/
 
 
 # 设置文本的对齐方式
@@ -456,7 +446,7 @@ githubBanner:
   enable: true
   # 你的 Github 仓库地址
   # Your repository url on Github.
-  permalink: https://github.com/hugo-next/hugo-theme-next
+  permalink: https://github.com/zpc2222/hugo-theme-next
   # 关注说明
   # Show this title when cursor move on.
   title: 给个小星星吧
