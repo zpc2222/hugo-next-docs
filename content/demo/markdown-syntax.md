@@ -3,8 +3,8 @@ title: "Markdown 语法支持"
 description: "描述下 NexT 主题所支持的各种 markdown 语法及效果展示。"
 isCJKLanguage: false
 
-lastmod: 2022-06-03T11:52:18+08:00
-publishDate: 2022-06-03T11:52:18+08:00
+lastmod: 2022-09-22T11:52:18+08:00
+publishDate: 2022-09-27T11:52:18+08:00
 
 author: Mainroad
 originLink: https://mainroad-demo.netlify.app/post/basic-elements/
@@ -45,7 +45,6 @@ url: demo/markdown-syntax.html
 ```markdown
 ![图像说明](图像地址)
 ```
-![hugo-next-primary](//lisenhui.gitee.io/imgs/hugo-next/logo/hugo-next-primary.png)
 
 ### HTML IMG 标签
 

@@ -3,16 +3,13 @@ title: "Hugo 内置的 Chroma 语法高亮"
 description: "描述下 Chroma 所支持的各种语法及高亮效果展示"
 keywords: "Chroma,语法,高亮"
 
-date: 2022-06-07T19:09:52+08:00
-lastmod: 2022-06-07T19:09:52+08:00
+date: 2022-09-24T19:09:52+08:00
+lastmod: 2022-09-27T19:09:52+08:00
 
 categories:
  - 示例
 tags:
   - 语法
-  - 高亮
-  - Chroma
-
 url: demo/syntax-highlighting.html
 ---
 

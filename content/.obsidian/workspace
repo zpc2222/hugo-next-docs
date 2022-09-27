@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "23b000ba05f7a490",
+        "id": "a7385e7671b888f0",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "releases/1-hugo-next-v4-introduced.md",
+            "file": "demo/hugo-next.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "releases/1-hugo-next-v4-introduced.md",
+                "file": "demo/hugo-next.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "releases/1-hugo-next-v4-introduced.md",
+                "file": "demo/hugo-next.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "releases/1-hugo-next-v4-introduced.md"
+                "file": "demo/hugo-next.md"
               }
             }
           },
@@ -136,17 +136,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "8f1600b216dca1cc",
+  "active": "a7385e7671b888f0",
   "lastOpenFiles": [
-    "releases/0-hugo-next-organization.md",
+    "demo/markdown-syntax.md",
+    "demo/hello.md",
+    "demo/hugo-next.md",
     "demo/table-of-content.md",
     "demo/syntax-highlighting.md",
     "demo/shortcodes.md",
-    "demo/markdown-syntax.md",
-    "demo/hello-world.md",
-    "archives/_index.md",
-    "demo/emoji-support.md",
     "about.md",
-    "flinks.md"
+    "lisenhui.gitee.io/imgs/hugo-next/logo/hugo-next-primary.png.md",
+    "demo/emoji-support.md",
+    "releases/hugo-next-4-1-0-release.md"
   ]
 }

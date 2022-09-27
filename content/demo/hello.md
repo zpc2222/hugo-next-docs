@@ -2,16 +2,16 @@
 title: "世界，你好！"
 description: "快速的描述下有关于 Hugo 建站的基本用法。"
 
-lastmod: 2022-06-03T16:43:23+08:00
-date: 2022-06-02T11:52:03+08:00
+lastmod: 2022-09-20T16:43:23+08:00
+date: 2022-09-27T11:52:03+08:00
 
 categories:
  - 示例
 tags:
  - Hugo
- - 开始
+ - 建站
 
-url: demo/hello-world.html
+url: demo/hello.html
 ---
 
 > “使用 `weight` 关键字置顶文章。”

@@ -29,9 +29,9 @@ darkmode: true
 # 站点基本信息
 # Site Information Settings
 author: 藏锋
-subtitle: Hugo打造的博客
-description: 专注于Java、移动互联网、项目管理、软件架构
-keywords: Java,开发,架构,中间件,研发
+subtitle: 我的个人小站
+description: 不忘初心，努力，奋斗。
+keywords: Hugo,博客,Java,项目,分享
 
 # 不同尺寸站点图标
 # Different size of favicon
@@ -91,7 +91,7 @@ menuSets:
 sidebar:
   # 侧边栏位置，可选： left | right
   # Sidebar Position: left | right
-  position: left
+  position: right
 
   # 自定义侧边栏的宽度，默认配置如下
   # Muse | Mist: 320
@@ -127,7 +127,7 @@ sidebar:
 avatar:
   # 设置显示头像的相对路径
   # Replace the default image and set the url here.
-  url: /imgs/hugo_next_avatar.png
+  url: /imgs/head.jpeg
   # 开启头像的圆形显示效果
   # If true, the avatar will be displayed in circle.
   rounded: true
@@ -149,8 +149,7 @@ siteState: true
 socials: 
   social0: Github || https://github.com/zpc2222 || fab fa-github
   social1: E-Mail || mailto:mozhou2222@gmail.com || fa fa-envelope
-  @social2: 知乎 || https://www.zhihu.com/people/lisenhui || fa fa-book
-  #Google: https://plus.google.com/mozhou2222 || fab fa-google
+  #Google: https://plus.google.com/yourname || fab fa-google
   #Twitter: https://twitter.com/yourname || fab fa-twitter
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
   #StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow
@@ -190,8 +189,8 @@ linksSets:
 # Links of your friends
 # Usage: `Key: name || permalink`
 links: 
-  link0: Hugo-NexT || https://gitee.com/hugo-next/hugo-theme-next
-  link1: 百度一下 || https://www.baidu.com
+  link1: 凡梦星尘空间站 || https://lisenhui.cn
+  link2: 百度一下 || https://www.baidu.com
 
 # 文章目录显示
 # Table of Contents in the Sidebar
@@ -260,13 +259,23 @@ footer:
   # 站点支持供应商列表
   # Vendors list who support website. 
   vendors:
-    enable: true
+    enable: false
     # 支持说明
     # Some support information description.
     title: 提供CDN/云资源支持
     # 供应商列表，请将带有图标的供应商放在前面
     # Vendors list, remember that who with logo image need put in top.
     list:
+      - name: Vercel
+        image: 
+          url: /imgs/vendors/vercel.svg
+          width: 50
+        link: https://vercel.com
+      - name: 又拍云
+        image: 
+          url: /imgs/vendors/upyun.png
+          width: 43
+        link: https://upyun.com
       - name: Webify
         link: https://webify.cloudbase.net
 
@@ -328,8 +337,8 @@ rewardSets:
   # Donate type
   # Usage: `name:image url`
   reward:
-    wechatpay: /imgs/donate/wechat-pay.png
-    alipay: /imgs/donate/ali-pay.png
+    wechatpay: /imgs/donate/wechat-pay.jpg
+    alipay: /imgs/donate/ali-pay.jpg
     #paypal: /images/paypal.png
     #bitcoin: /images/bitcoin.png
 
@@ -367,7 +376,7 @@ mobileLayoutEconomy: true
 # Browser header panel color.
 themeColor:
   light: "#222"
-  dark: "#222"
+  dark: "#999"
 
 # TODO 暂时不支持
 # Override browsers' default behavior.
@@ -382,7 +391,7 @@ bodyScrollbar:
 codeblock:    
   # 支持样式类型： default | flat | mac
   # Available values: default | flat | mac
-  style: mac
+  style: flat
   # 在代码块上添加拷贝按钮
   # Add copy button on codeblock
   copyBtn: true
@@ -411,7 +420,7 @@ readingProgress:
   start: left
   # 进度条显示位置： top | bottom
   # Available values: top | bottom
-  position: top
+  position: bottom
   # 是否反向显示进度
   # If true, the read progress will be reversed.
   reversed: false
@@ -420,7 +429,7 @@ readingProgress:
   color: "#37c6c0"
   # 进度条的高度
   # Hight of the read progress bar.
-  height: 3px
+  height: 8px
 
 # 书签功能
 # Bookmark Support
@@ -436,7 +445,7 @@ bookmark:
   # manual: 只有当点击书签按钮时才会保存阅读进度
   # If auto, save the reading progress when closing the page or clicking the bookmark-icon.
   # If manual, only save it by clicking the bookmark-icon.
-  save: manual
+  save: auto
 
 # 右上角在 Github 上面关注我的横幅
 # `Follow me on GitHub` banner in the top-right corner.
@@ -446,7 +455,7 @@ githubBanner:
   enable: true
   # 你的 Github 仓库地址
   # Your repository url on Github.
-  permalink: https://github.com/zpc2222/hugo-theme-next
+  permalink: https://github.com/zpc2222/hugo-next-docs
   # 关注说明
   # Show this title when cursor move on.
   title: 给个小星星吧
@@ -634,7 +643,7 @@ comments:
   nav:
     - name: waline
       title: Waline
-      color: "#27ae60"
+      color: "#21ae60"
       weight: 1
     - name: giscus
       title: Giscus
@@ -789,7 +798,7 @@ algoliaSearch:
 localSearch:
   # 是否开启搜索功能
   # Enable search function
-  enable: false
+  enable: true
   # 搜索索引文件路径
   # Indexes file path for search
   path: /searchindexes.xml
@@ -816,7 +825,7 @@ localSearch:
 # A button to open designated chat widget in sidebar.
 # Firstly, you need to enable and configure the chat service.
 chat:
-  enable: false
+  enable: true
   icon: fa fa-comment # Icon name in Font Awesome, set false to disable icon.
   text: Chat # Button text, change it as you wish.
 

@@ -10,17 +10,17 @@ main:
     pre: user
     weight: 2
   - identifier: democrat
-    name: 示例
+    name: 常用案例
     pageref: /demo
     pre: democrat
     weight: 3
   - identifier: releases
-    name: 发版记录
+    name: 技术相关
     pageref: /releases
-    pre: flag
+    pre: dev
     weight: 4
   - identifier: archives
-    name: 归档
+    name: 存档
     pageref: /archives
     pre: archive
     weight: 5
