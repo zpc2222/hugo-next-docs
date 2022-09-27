@@ -2,17 +2,14 @@
 title: "文章目录导航"
 description: "描述下 NexT 主题下的文章目录导航效果。"
 keywords: "文章,目录,导航"
-
 date: 2022-09-25T21:12:52+08:00
 lastmod: 2022-09-27T21:12:52+08:00
-
 categories:
  - 示例
 tags:
   - 目录
   - 导航
   - 博客
-
 toc: true
 url: demo/table-of-content.html
 ---
