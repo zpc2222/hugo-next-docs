@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>demo on 藏锋的博客</title><link>/tags/demo/</link><description>Recent content in demo on 藏锋的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 27 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/demo/rss.xml" rel="self" type="application/rss+xml"/><item><title>Hugo文档编辑！</title><link>/demo/hugo-create.html</link><pubDate>Tue, 27 Sep 2022 00:00:00 +0000</pubDate><guid>/demo/hugo-create.html</guid><description>&lt;h1 id="markdown的编辑">Markdown的编辑&lt;/h1>
+&lt;p>新增md文件，开头要加上如下：&lt;/p>
+&lt;pre tabindex="0">&lt;code>title: &amp;#34;Hugo文档编辑！&amp;#34;
+description: &amp;#34;撰写文章&amp;#34;
+keywords: &amp;#34;Hugo,建站&amp;#34;
+date: 2022-09-27
+lastmod: 2022-09-27
+categories:
+- 示例
+tags:
+- demo
+- 建站
+expand: true
+extlink:
+comment:
+enable: true
+toc: true
+url: /demo/hugo-create.html
+weight: 1
+&lt;/code>&lt;/pre>&lt;h2 id="配置说明">配置说明&lt;/h2>
+&lt;blockquote>
+&lt;p>首先修改 frontmatter
+其中title表示文章标题，
+date为生成文章当时的时间，
+tags为标签，
+categories为目录，
+toc enable为启用文章目录（需要自己在文章中生成），
+description为文章摘要，
+draft表示是否为草稿（写完了文章把这里改为 false 即可），&lt;/p>
+&lt;/blockquote></description></item></channel></rss>

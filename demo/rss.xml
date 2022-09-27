@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Demoes on 藏锋的博客</title><link>/demo/</link><description>Recent content in Demoes on 藏锋的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 27 Sep 2022 11:52:18 +0800</lastBuildDate><atom:link href="/demo/rss.xml" rel="self" type="application/rss+xml"/><item><title>Hugo文档编辑！</title><link>/demo/hugo-create.html</link><pubDate>Tue, 27 Sep 2022 00:00:00 +0000</pubDate><guid>/demo/hugo-create.html</guid><description>&lt;h1 id="markdown的编辑">Markdown的编辑&lt;/h1>
+&lt;p>新增md文件，开头要加上如下：&lt;/p>
+&lt;pre tabindex="0">&lt;code>title: &amp;#34;Hugo文档编辑！&amp;#34;
+description: &amp;#34;撰写文章&amp;#34;
+keywords: &amp;#34;Hugo,建站&amp;#34;
+date: 2022-09-27
+lastmod: 2022-09-27
+categories:
+- 示例
+tags:
+- demo
+- 建站
+expand: true
+extlink:
+comment:
+enable: true
+toc: true
+url: /demo/hugo-create.html
+weight: 1
+&lt;/code>&lt;/pre>&lt;h2 id="配置说明">配置说明&lt;/h2>
+&lt;blockquote>
+&lt;p>首先修改 frontmatter
+其中title表示文章标题，
+date为生成文章当时的时间，
+tags为标签，
+categories为目录，
+toc enable为启用文章目录（需要自己在文章中生成），
+description为文章摘要，
+draft表示是否为草稿（写完了文章把这里改为 false 即可），&lt;/p>
+&lt;/blockquote></description></item><item><title>首次使用 Hugo NexT！</title><link>/use-hugo.html</link><pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate><guid>/use-hugo.html</guid><description>这是一个使用 Hugo NexT 文档的站点！ 它是从 Hexo NexT 主题中移植过来的，专门为 Hugo 而打造的高品质优雅主题，保持原有简单易用的特性和强大的功能。 路线图 Hugo NexT 主题的</description></item><item><title>Markdown 语法支持</title><link>/demo/markdown-syntax.html</link><pubDate>Tue, 27 Sep 2022 11:52:18 +0800</pubDate><guid>/demo/markdown-syntax.html</guid><description>&lt;p>仅以此篇文章来测试下在 &lt;code>NexT&lt;/code> 主题中在通过 &lt;code>Hugo&lt;/code> 引擎来建站时，是否支持 &lt;code>Markdown&lt;/code> 文件内容中所写的各种语法，并展示下实际的效果。&lt;/p></description></item><item><title>世界，你好！</title><link>/demo/hello.html</link><pubDate>Tue, 27 Sep 2022 11:52:03 +0800</pubDate><guid>/demo/hello.html</guid><description>&lt;blockquote>
+&lt;p>“使用 &lt;code>weight&lt;/code> 关键字置顶文章。”&lt;/p>
+&lt;/blockquote>
+&lt;p>
+&lt;a href="https://gohugo.io/" title="Hugo" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+Hugo
+&lt;i class="fa fa-external-link-alt">&lt;/i>
+&lt;/a> 是现今世界上最快的网站建设框架，也是最流行的开源静态站点生成器之一。 凭借其惊人的速度和灵活性，Hugo 让建设网站再次变得有趣起来。&lt;/p></description></item><item><title>文章目录导航</title><link>/demo/table-of-content.html</link><pubDate>Sun, 25 Sep 2022 21:12:52 +0800</pubDate><guid>/demo/table-of-content.html</guid><description>&lt;p>巴顿将军说过：“衡量一个人是否成功，不是看他站到顶峰，而是从顶峰跌落之后的反弹力”，褚时健的人生便是如此，中年发家致富，名利双收，之后又跌落到谷底，等到74岁再创业，10年后带着褚橙归来，东山再起收获亿万财富，他的发展轨迹就是反弹的过程。&lt;/p></description></item><item><title>Hugo 内置的 Chroma 语法高亮</title><link>/demo/syntax-highlighting.html</link><pubDate>Sat, 24 Sep 2022 19:09:52 +0800</pubDate><guid>/demo/syntax-highlighting.html</guid><description>&lt;p>Hugo 通过 Chroma 提供非常快速的语法高亮显示，现 Hugo 中使用 Chroma 作为代码块高亮支持，它内置在 Go 语言当中，速度是真的非常、非常快，而且最为重要的是它也兼容之前我们使用的 Pygments 方式。&lt;/p>
+&lt;p>以下通过 Hugo 内置短代码 &lt;code>highlight&lt;/code> 和 &lt;code>Markdown&lt;/code> 代码块方式分别验证不同语言的代码块渲染效果并能正确高亮显示，有关优化语法突出显示的更多信息，请参阅
+&lt;a href="https://gohugo.io/getting-started/configuration-markup#highlight" title="Hugo 文档" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+Hugo 文档
+&lt;i class="fa fa-external-link-alt">&lt;/i>
+&lt;/a>。&lt;/p></description></item><item><title>自定义短语示例</title><link>/demo/shortcodes.html</link><pubDate>Fri, 23 Sep 2022 14:41:50 +0800</pubDate><guid>/demo/shortcodes.html</guid><description>&lt;p>虽然 &lt;code>Markdown&lt;/code> 语法已经非常丰富能够满足我们写文章的绝大部分需求，但是为更好的对文章内容进行更友好的排版，为此设计了一套自定义的短语，便于在使用时能够快速引用。&lt;/p></description></item></channel></rss>
